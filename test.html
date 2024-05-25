@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Testing Application</title>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="utf-8" />
+    <script src="app.js"></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <table data-testid="users-table">
+        <caption data-testid="total-records" style="caption-side: top">
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+        </thead>
+
+        <tbody>
+            <tr data-testid="1" id="abc">
+                <td style="font-weight: 700;">John</td>
+                <td>johnmail@gmail.com</td>
+                <td>developer</td>
+            </tr>
+
+            <tr data-testid="2">
+                <td>Osama</td>
+                <td>osama@gmail.com</td>
+                <td>qa</td>
+            </tr>
+
+            <tr data-testid="3">
+                <td>Mike</td>
+                <td>mike@gmail.com</td>
+                <td>developer</td>
+            </tr>
+
+            <tr data-testid="4">
+                <td>Erick</td>
+                <td>erick@gmail.com</td>
+                <td>Admin</td>
+            </tr>
+
+            <tr data-testid="5">
+                <td>Ryan</td>
+                <td>ryan@gmail.com</td>
+                <td>qa</td>
+            </tr>
+            <tr data-testid="6">
+                <td>Dan</td>
+                <td>dan@gmail.com</td>
+                <td>PO</td>
+            </tr>
+
+        </tbody>
+        </caption>
+    </table>
+</body>
