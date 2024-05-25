@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Testing Application</title>
-    <link rel="stylesheet" href="app.css">
-    <meta charset="utf-8" />
-    <script src="app.js"></script>
-  </head>
-  <body>
 
-    <p id="hi"> WelCome to JavaScript </p>
-    <div>
-      <span>
-        
-        <form>
-          <input id="username" type="email" class="test"> Username</input>
-          <input id="pass" type="password" class="test"> Password</input>
-          <button id="login" onclick="test()">
-             Login</button>
-        </form>
-        
-      </span>
-    </div>
+<head>
+  <title>My Testing Application</title>
+  <link rel="stylesheet" href="app.css">
+  <meta charset="utf-8" />
+  <script src="app.js"></script>
+</head>
 
-  </body>
+<body>
+
+  <div class="menu">
+    <button onclick="goToHome()">Home</button>
+    <button onclick="goToTestTable()">Test Table</button>
+    <button onclick="goToTestElements()">Test Elements</button>
+  </div>
+
+  <p id="hi"> WelCome to JavaScript </p>
+  <div>
+    <span>
+
+
+      <form>
+        <input id="username" type="email" class="test"> Username</input>
+        <input id="pass" type="password" class="test"> Password</input>
+        <button id="login" onclick="changeRoute()">
+          Login</button>
+      </form>
+
+    </span>
+  </div>
+
+</body>
+
 </html>
+
+<script>
+  function changeRoute() {
+    window.location.href = 'https://main--demo-qasite.netlify.app/test.html';
+  }
+
+
+</script>
 
 <!-- <script>
   function test(){
