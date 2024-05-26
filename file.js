@@ -12,6 +12,7 @@
 arr = [1, 2, 3, 4, 5, 6, 7, 99, 380, 333];
 // console.log(arr.length);
 console.log(arr[arr.length - 1]);
+console.log(arr.length - 1);
 
 // for (let i = 0; i < arr.length; i++) {
 //   //   console.log(arr.length);
